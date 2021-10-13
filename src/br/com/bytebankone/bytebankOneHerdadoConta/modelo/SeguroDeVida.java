@@ -1,4 +1,4 @@
-package bytebankOneHerdadoConta;
+package br.com.bytebankone.bytebankOneHerdadoConta.modelo;
 
 public class SeguroDeVida implements Tributavel {
     public SeguroDeVida() {

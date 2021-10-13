@@ -1,4 +1,8 @@
-package bytebankOneHerdadoConta;
+package br.com.bytebankone.bytebankOneHerdadoConta.teste;
+
+import br.com.bytebankone.bytebankOneHerdadoConta.modelo.CalculadorDeImposto;
+import br.com.bytebankone.bytebankOneHerdadoConta.modelo.ContaCorrente;
+import br.com.bytebankone.bytebankOneHerdadoConta.modelo.SeguroDeVida;
 
 public class TesteTributaveis {
     public TesteTributaveis() {
