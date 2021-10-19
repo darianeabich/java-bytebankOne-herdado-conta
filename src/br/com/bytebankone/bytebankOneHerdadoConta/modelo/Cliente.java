@@ -1,5 +1,11 @@
 package br.com.bytebankone.bytebankOneHerdadoConta.modelo;
 
+/**
+ * Classe que representa um cliente no BytebankOne.
+ *
+ * @author dariane.abich
+ * @version 0.1
+ */
 public class Cliente {
     String nome;
     String cpf;
