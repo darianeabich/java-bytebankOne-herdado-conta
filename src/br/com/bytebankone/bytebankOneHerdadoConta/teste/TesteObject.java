@@ -4,7 +4,7 @@ import br.com.bytebankone.bytebankOneHerdadoConta.modelo.Cliente;
 import br.com.bytebankone.bytebankOneHerdadoConta.modelo.ContaCorrente;
 import br.com.bytebankone.bytebankOneHerdadoConta.modelo.ContaPoupanca;
 
-public class Teste {
+public class TesteObject {
     public static void main(String[] args) {
 //        System.out.println("x");
 //        System.out.println(3);
