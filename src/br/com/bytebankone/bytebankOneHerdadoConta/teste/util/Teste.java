@@ -1,5 +1,6 @@
 package br.com.bytebankone.bytebankOneHerdadoConta.teste.util;
 
+import br.com.bytebankone.bytebankOneHerdadoConta.modelo.Cliente;
 import br.com.bytebankone.bytebankOneHerdadoConta.modelo.Conta;
 import br.com.bytebankone.bytebankOneHerdadoConta.modelo.ContaCorrente;
 
@@ -7,7 +8,9 @@ import java.util.ArrayList;
 
 public class Teste {
     public static void main(String[] args) {
-        ArrayList lista = new ArrayList();
+        ArrayList<Conta> lista = new ArrayList<Conta>();
+
+        ArrayList<String> nomes = new ArrayList<String>();
 
         Conta cc = new ContaCorrente(22,11);
         lista.add(cc);
@@ -16,7 +19,7 @@ public class Teste {
         lista.add(cc2);
 
         System.out.println("Tamanho: "+lista.size());
-        Conta ref = (Conta) lista.get(0);
+        Conta ref = lista.get(0);
         System.out.println(ref.getNumero());
 
         lista.remove(0);
@@ -34,7 +37,7 @@ public class Teste {
 
         System.out.println("---------------");
 
-        for (Object oRef : lista) {
+        for (Conta oRef : lista) {
             System.out.println(oRef);
         }
     }
