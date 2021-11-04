@@ -7,10 +7,11 @@ import br.com.bytebankone.bytebankOneHerdadoConta.modelo.ContaCorrente;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Vector;
 
 public class TesteArrayList {
     public static void main(String[] args) {
-        List<Conta> lista = new ArrayList<Conta>();
+        List<Conta> lista = new Vector<Conta>(); //thread safe
 
 //        ArrayList<String> nomes = new ArrayList<String>();
 
