@@ -5,12 +5,14 @@ import br.com.bytebankone.bytebankOneHerdadoConta.modelo.Conta;
 import br.com.bytebankone.bytebankOneHerdadoConta.modelo.ContaCorrente;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class TesteArrayList {
     public static void main(String[] args) {
-        ArrayList<Conta> lista = new ArrayList<Conta>();
+        List<Conta> lista = new ArrayList<Conta>();
 
-        ArrayList<String> nomes = new ArrayList<String>();
+//        ArrayList<String> nomes = new ArrayList<String>();
 
         Conta cc = new ContaCorrente(22,11);
         lista.add(cc);
