@@ -63,7 +63,7 @@ public class Teste {
         };
 
         lista.sort(comp);
-        
+
         lista.forEach( (conta) -> System.out.println(conta+", "+ conta.getTitular().getNome()));
     }
 }
